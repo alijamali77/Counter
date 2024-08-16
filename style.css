@@ -4,6 +4,7 @@
     box-sizing: border-box;
 
 }
+
 main{
     height: 100vh; /* به بدن و html ارتفاع 100% بدهید */
     margin: 0; /* حاشیه را صفر کنید */
