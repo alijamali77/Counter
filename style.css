@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+main{
+    height: 100vh; /* به بدن و html ارتفاع 100% بدهید */
+    margin: 0; /* حاشیه را صفر کنید */
+    display: flex; /* از Flexbox استفاده کنید */
+    justify-content: center; /* محتوای افقی را وسط چین کنید */
+    align-items: center; /* محتوای عمودی را وسط چین کنید */
+}
+#main{
+    width: 400px;
+    height: 300px;
+    margin:auto;
+    background-color:rgb(57, 87, 252);
+    color: white;
+    border-radius: 10px;
+}
+#main > #mainTop{
+    height: 140px;
+}
+#mainTop > *{text-align: center;margin-top: 40px;}
+#mainTop > h1{font-size:30pt}
+#mainTop > h3{font-size:20pt}
+#main > div{
+    height : 2px;
+    border-radius: 5px;
+    background-color:white;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width:95%;
+    margin-left: 2.5%;
+}
+#main > #mainBottom{
+    padding-top:30px;
+}
+#main > #mainBottom > ul{
+    display: flex;
+    justify-content: space-around;
+}
+#main > #mainBottom > ul > li{
+    list-style: none;
+    background-color:rgb(247, 19, 3);
+    border-radius: 10px;
+    text-align: center;
+    padding:10px 20px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+#main > #mainBottom > ul > li:nth-child(2)
+{
+    background-color:white;
+    color:black;
+}
+#main > #mainBottom > ul > li:nth-child(3)
+{
+    background-color:green;
+}
+#main > #mainBottom > ul > li:hover
+{
+    background-color: black;
+    color: white;
+}
